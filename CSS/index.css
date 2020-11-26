@@ -70,7 +70,9 @@
 
 }
 .sirp h3{
-  margin: 0 auto;
+  text-align: center;
+  margin-left: 0px;
+
 }
 }
 
@@ -117,6 +119,8 @@
 .sirp h3{
   color: white;
   padding-left: 42%;
+  font-family: cursive;
+  font-size: 25px;
 }
 #tel{
   color: white;
