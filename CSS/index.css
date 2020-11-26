@@ -32,6 +32,8 @@
 .topnav {
   overflow: hidden;
   background-color: #333;
+  margin: 1%;
+  width: 100%;
 }
 
 .topnav a {
@@ -74,6 +76,8 @@
   margin-left: 0px;
 
 }
+
+
 }
 
 @media screen and (max-width: 600px) {
@@ -124,4 +128,52 @@
 }
 #tel{
   color: white;
+  padding: 5px;
+}
+.stu{
+  background-color: #000000;
+  width: 100% ;
+  height:auto;
+  background-size: auto auto;
+  background-position: center;
+  margin: 1%;
+}
+.stutxt{
+  color: White;
+  text-align: center;
+  padding: 15px;
+  font-size: 50px;
+  font-family: "Sofia";
+}
+.stupic{
+  padding: 20px;
+}
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 290px;
+    margin: 1%;
+}
+.item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: grey;
+
+}
+.caption {
+    display: block;
+    color: white;
+}
+@media (max-width:800px) {
+.stupic{
+  padding-left: 15%;
+}
+.caption{
+  margin-bottom: 6%;
+}
+.stutxt{
+  font-family: cursive,fantasy,serif,monospace;
+}
 }
