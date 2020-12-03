@@ -173,11 +173,9 @@
   height: 100px;
   width: 100px;
   margin-bottom: 2%;
+  border: 3px solid red;
 }
-.vid{
-  width: 50%;
-  height: 400px;
-}
+
 
 @media (max-width:800px) {
   .personal{
@@ -192,10 +190,8 @@
     height: 75px;
     width: 75px;
     margin-bottom: 5%;
-    padding-left: 2%;
+    margin-left: 2%;
+    border: 2px solid violet;
   }
-  .vid{
-    width: 40%;
-    height: 300px;
-  }
+
 }
